@@ -21,6 +21,29 @@ const BLOG = {
   BIO: process.env.NEXT_PUBLIC_BIO || '一个普通的干饭人，窦窦的一生追求🍚', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://bolk.zhengkun.vip', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '窦窦, 博客', // 网站关键词 英文逗号隔开
+  
+  // 右侧组件
+  RIGHT_BAR: true, // 是否显示右侧栏
+  RIGHT_LATEST_POSTS: true, // 右侧栏最新文章
+  RIGHT_CATEGORY_LIST: true, // 右侧边栏文章分类列表
+  RIGHT_TAG_LIST: true, // 右侧边栏标签分类列表
+  RIGHT_AD: false, // 右侧广告
+
+  // 菜单
+  MENU_HOME: true, // 显示首页
+  MENU_CATEGORY: true, // 显示分类
+  MENU_TAG: false, // 显示标签
+  MENU_ARCHIVE: false, // 显示归档
+  MENU_SEARCH: true, // 显示搜索
+
+  WIDGET_TO_TOP: true, // 是否显示回顶
+  WIDGET_TO_BOTTOM: false, // 显示回底
+  WIDGET_DARK_MODE: false, // 显示日间/夜间模式切换
+  WIDGET_TOC: true, // 移动端显示悬浮目录
+
+  ARTICLE_SHARE: false, // 文章分享功能
+  ARTICLE_RELATE_POSTS: true, // 相关文章推荐
+  ARTICLE_COPYRIGHT: true // 文章版权声明
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'uk@uqlook.top', // 邮箱地址 例如mail@tangly1024.com
